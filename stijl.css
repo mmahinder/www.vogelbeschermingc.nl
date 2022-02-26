@@ -1,0 +1,64 @@
+body{
+font-family: Verdana, sans-serif;
+font-size: 10px;
+color: purple;
+}
+input[type="text"], input[type="email"], textarea, select, button{
+display: block;
+margin: 15px 0px;
+width: 400px;
+box-sizing: border-box;
+border-radius: 4px;
+box-shadow: inset 2px 2px 5px grey;
+}
+textarea{
+height: 200px;
+background-color: lightblue;
+padding: 5px 4px;
+}
+button:active{
+background-color: lightgreen;
+color: blue;
+border-radius: 8px;
+box-shadow: inset 2px 2px 5px green;
+}
+
+header{
+background-color: #ff0000;
+width:50 %;
+height: 50px;
+}
+footer{
+background-color: #0000ff;
+width:50 %;
+height: 50px;
+}
+div {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+ul a{
+color: white;
+text-decoration: none;
+}
+li{
+display: inline-block;
+height: 22px;
+width: 100px;
+padding: 12px;
+text-align: center;
+color: white;
+border-left: 2px solid green;
+border-right: 1px solid green;
+background-color: olive;
+}
+li:hover{
+background-color: lightgreen;
+border-style: none;
+}
+h1{
+margin-left: 200px;
+}
